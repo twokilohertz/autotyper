@@ -14,7 +14,7 @@ struct CommandLineArgs {
     #[arg(short, long, default_value_t = 3)]
     delay: u32,
 
-    /// String of text to turned into simulated keystrokes
+    /// String of text to be turned into simulated keystrokes
     #[arg(short, long)]
     text: String,
 }
